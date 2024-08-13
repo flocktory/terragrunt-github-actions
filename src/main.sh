@@ -96,7 +96,7 @@ function installTerraform {
     fi
   fi
 
-  url="https://releases.hashicorp.com/terraform/${tfVersion}/terraform_${tfVersion}_linux_amd64.zip"
+  url="https://hashicorp-releases.yandexcloud.net/terraform/${tfVersion}/terraform_${tfVersion}_linux_amd64.zip"
 
   echo "Downloading Terraform v${tfVersion}"
   curl -s -S -L -o /tmp/terraform_${tfVersion} ${url}
